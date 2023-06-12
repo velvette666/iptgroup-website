@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELJJJ hotel</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: serif;
+      margin: 0;
+      padding: 0;
+    }
+    html { 
+  background-image: url(logo.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+    header {
+      background-color: black;
+      color: gold;
+      padding: 15px;
+      text-align: center;
+      font-style: oblique;
+   border-style: double;
+    }
+    
+    nav {
+      background-color:black ;
+      padding: 15px;
+      text-align: right;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      text-decoration: underline;
+      color: gold;
+      padding: 5px;
+    }
+    
+    img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+div {
+  background-color: gold;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+    main {
+      padding: 20px;
+      
+    }
+    
+    footer {
+      background-color: black;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ELJJJ Hotel management</h1>
+        <img scr="logo.jpg" alt="">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>About</h2>
+    <div>This is a simple website created using HTML and CSS.
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

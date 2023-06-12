@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELJJJ Hotel-Signup</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: serif;
+      margin: 0;
+      padding: 0;
+
+    }
+    html { 
+
+      background-color: grey;
+}
+    header {
+      background-color: black;
+      color: gold;
+      padding: 15px;
+      text-align: center;
+      font-style: oblique;
+   border-style: double;
+
+    }
+  
+    
+    nav {
+      background-color:black ;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none ;
+      margin: 0;
+      padding: 0;
+      font-size: larger;
+    }
+  
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 50px;
+    }
+    
+    nav ul li a {
+      text-decoration: underline;
+      color: gold;
+      padding: 5px;
+    }
+    
+    img {
+  max-width: 90%;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+div {
+  background-image: url(logo.jpg);
+  background-color: khaki;
+  width: 1270px;
+  border: 10px solid black;
+  border-style: ridge;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+    main {
+      padding: 20px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: larger;
+  
+    }
+    
+    footer {
+      background-color: black;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+    }
+    .form-container {
+  width: 300px;
+
+
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ELJJJ Hotel management</h1>
+<img src="logo.jpg" alt="logo">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/home.html">Home</a></li>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/sample.html">About</a></li>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/services.html">Services</a></li>
+      <li><a href="#">Contact</a>
+        <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/signup2.html">signUp</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    
+    <div id="form">
+        <p id="error_message"></p>					        	<h1>Sign Up</h1><br> ELJJJ Hotel
+<form action="signup.php" method="post" accept-charset="utf-8">
+<br><br>
+<label for="full_name">Full Name:<input id="student_name" type="text" name="full_name" required="" placeholder="Enter Name"></label><br><br>
+<label for="course">Where did you hear our hotel?
+<select id="course" name="course" required="">
+<option value="">select one</option>
+<option value="tv">tv commercial</option>
+<option value="ads">ads</option>
+<option value="socmed">social media</option>
+<option value="people">recommended</option>
+</select>
+</label><br><br>
+<label for="contact_number">Contact Number:<input id="contact_number" type="text" name="contact_number" required="" placeholder="Enter contact number"></label><br><br>
+<label for="student_email"> Email: <input id="student_email" type="email" name="student_email" required="" placeholder="Enter your email"></label><br><br>
+<label for="student_username"> Username: <input id="student_username" type="text" name="student_username" required="" placeholder="Enter your username"><br><br>
+<label for="password">Password <input id="password" type="password" name="password" required="" placeholder="Enter Password"><br><br>
+<label for="confpassword">Confirm Password <input id="confpassword" type="password" name="confpassword" required="" placeholder="Enter confirm password"><br><br>
+<button type="submit">Submit</button><br><br>
+
+</label></label></label></form></div>
+    </main>
+  
+  <footer>
+    <p>&copy; 2023 ELJJ Hotel All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELJJJ Hotel-Book</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: serif;
+      margin: 0;
+      padding: 0;
+
+    }
+    html { 
+
+      background-color: grey;
+}
+    header {
+      background-color: black;
+      color: gold;
+      padding: 15px;
+      text-align: center;
+      font-style: oblique;
+   border-style: double;
+
+    }
+  
+    
+    nav {
+      background-color:black ;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none ;
+      margin: 0;
+      padding: 0;
+      font-size: larger;
+    }
+  
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 50px;
+    }
+    
+    nav ul li a {
+      text-decoration: underline;
+      color: gold;
+      padding: 5px;
+    }
+    
+    img {
+  max-width: 90%;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+div {
+  background-image: url(logo.jpg);
+  background-color: khaki;
+  width: 1240px;
+  border: 15px solid black;
+  border-style: ridge;
+  padding: 50px;
+  margin: 20px;
+  text-align: left;
+  color: white;
+}
+
+    main {
+      padding: 20px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: larger;
+  
+    }
+    
+    footer {
+      background-color: black;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+    }
+    body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+
+</style>
+</head>
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ELJJJ Hotel management</h1>
+    <a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/welcome.html#"><img src="logo.jpg" alt="logo"></a>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/home.html">Home</a></li>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/sample.html">About</a></li>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/services.html">Services</a></li>
+      <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/contact.html">Contact</a>
+        <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/signup2.html">signUp</a>
+            <li><a href="file:///C:/Users/julie%20anne%20labajan/Documents/eljjj/Sample/.venv/Scripts/login.html">Login</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Responsive Checkout Form</h2>
+<p>Please pay responsively</p>
+<div>
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Reservation Payment</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="Room">Room offers
+                <select id="room" name="room" required="">
+                <option value="">select one</option>
+                <option value="sR">Standard Room</option>
+                <option value="suite">Suite Room</option>
+                <option value="Luxury">Luxury Room</option>
+                </select>
+                </label><br><br>
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p>standard room</a> <span class="price">php1000</span></p>
+      
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+</div>
+      
+    </main>
+  
+  <footer>
+    <p>&copy; 2023 ELJJ Hotel All rights reserved.</p>
+  </footer>
+</body>
+</html>
